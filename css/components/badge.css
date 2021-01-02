@@ -1,0 +1,46 @@
+.badge {
+  font-size: 10px;
+  background-color: tomato;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+}
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px 20px 10px;
+  position: relative;
+}
+
+.nav__new-header {
+  background-color: tomato;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  display: flex;
+  color: tomato;
+  position: absolute;
+  left: 322px;
+  bottom: 45px;
+}
+
+.nav__new-warning {
+  background-color: white;
+  font-weight: 600;
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid tomato;
+  border-radius: 50%;
+  text-align: center;
+  color: tomato;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -2px;
+}
